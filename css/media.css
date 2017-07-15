@@ -1,0 +1,25 @@
+@media only screen and (max-width: 993px){
+    .aside_nav{
+        left: -300px;
+        transition: 1s;
+    }
+
+    .outside-main{
+        margin: 0;
+        transition: 1s;
+        width: 100%;
+    }
+
+    .icon{
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .pricing > div, .contact-element,.pics-element, .bottom-element{
+        width: 100%;
+    }
+    .filter > .button:nth-last-child(1), .filter > .button:nth-last-child(2){
+        display: none;
+    }
+}
