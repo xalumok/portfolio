@@ -123,7 +123,7 @@ body, html{
 }
 
 .pics{
-    margin: 20px 0;
+    margin: 20px -10px;
     margin-bottom: 0;
 }
 
@@ -135,6 +135,7 @@ body, html{
     float: left;
     width: 33.33333%;
     padding: 10px;
+    box-sizing: border-box;
 }
 
 .pics-element > img{
@@ -223,11 +224,6 @@ body, html{
     font-weight: inherit;
 }
 
-#portfolio{
-    padding-left: -10px;
-    padding-right: -10px;
-}
-
 #portfolio, #about, .charge{
     padding: 16px;
 }
@@ -237,15 +233,14 @@ body, html{
     color: white;
     background-color: #bbb;
     width: 100%;
-    height: 40px;
+    /*height: 40px;*/
 }
 
 .percentage{
     font-size: 16px;
     background-color: #616161;
-    height: 28px;
     text-align: center;
-    padding-top: 12px;
+    padding: 11px 0;
 }
 
 .p95{
@@ -274,6 +269,10 @@ body, html{
 .download-button:hover{
     background-color: #b7b7b7;
     color: black;
+}
+
+.pricing{
+    margin: 0 -10px;
 }
 
 .pricing ul{
@@ -314,6 +313,8 @@ body, html{
 
 .pricing ul > li:nth-child(6) > b {
     font-size: 40px;
+    display: block;
+    margin-bottom: 24px;
 }
 
 .pricing ul > li:nth-last-child(1) > button{

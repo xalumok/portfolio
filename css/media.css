@@ -16,8 +16,11 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .pricing > div, .contact-element,.pics-element, .bottom-element{
+    .pricing > div, .contact-element, .pics-elem-outside, .bottom-element, .my-photos > img{
         width: 100%;
+    }
+    .my-photos > img{
+        padding-bottom: 10px;
     }
     .filter > .button:nth-last-child(1), .filter > .button:nth-last-child(2){
         display: none;
