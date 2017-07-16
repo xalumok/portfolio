@@ -19,6 +19,8 @@ body, html{
 }
 
 
+
+
 .avatar_2{
     border-radius: 5%;
     width: 45%;
@@ -121,22 +123,18 @@ body, html{
 }
 
 .pics{
-    margin-top: 20px;
+    margin: 20px 0;
+    margin-bottom: 0;
 }
 
 .pics-element{
-    float: left;
-    width: 32%;
     background-color: white;
-    margin: 1%;
 }
 
-.pics .pics-element:nth-child(3n+3){
-    margin-right: 0;
-}
-
-.pics .pics-element:nth-child(3n+1){
-    margin-left: 0;
+.pics-elem-outside{
+    float: left;
+    width: 33.33333%;
+    padding: 10px;
 }
 
 .pics-element > img{
@@ -223,6 +221,11 @@ body, html{
 
 .inherit{
     font-weight: inherit;
+}
+
+#portfolio{
+    padding-left: -10px;
+    padding-right: -10px;
 }
 
 #portfolio, #about, .charge{
@@ -480,4 +483,8 @@ footer div{
 
 .burger-menu i{
     font-size: 40px;
+}
+
+.filter .button, .bar .button{
+    display: inline-block;
 }
